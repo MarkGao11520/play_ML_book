@@ -18,3 +18,6 @@
 ### 4.random
 - #### 随机整数
 ![4.1](https://upload-images.jianshu.io/upload_images/7220971-32db651d9b6a3931.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- #### 随机浮点数
+![4.2](https://upload-images.jianshu.io/upload_images/7220971-da2bb8edc4841eaa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
