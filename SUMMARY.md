@@ -9,6 +9,5 @@
   * [Numpy 数据基础](jupyter-notebookyu-numpy-de-shi-yong/numpy-shu-ju-ji-chu.md)
   * [其他创建numpy.array 的方法](jupyter-notebookyu-numpy-de-shi-yong/qi-ta-chuang-jian-numpy-array-de-fang-fa.md)
   * [Numpy.array 的基本操作](jupyter-notebookyu-numpy-de-shi-yong/numpyarray-de-ji-ben-cao-zuo.md)
-
-
+* kNN算法的学习与使用
 
