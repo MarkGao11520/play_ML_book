@@ -16,6 +16,11 @@
   * [4. 超参数和模型参数](/knnsuan-fa-de-xue-xi-yu-shi-yong/4. 超参数和模型参数.md)
   * [5.数据归一化](/knnsuan-fa-de-xue-xi-yu-shi-yong/5.数据归一化.md)
   * [6.sklearn 中使用knn算法的总结整理](/knnsuan-fa-de-xue-xi-yu-shi-yong/6.sklearn 中使用knn算法的总结整理.md)
+* [线性回归算法](/线性回归算法/README.md)
+  * [1.线性回归算法简介](/knnsuan-fa-de-xue-xi-yu-shi-yong/1.线性回归算法简介.md)
+
+
+     
 
 
 
