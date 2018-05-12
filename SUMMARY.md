@@ -18,9 +18,7 @@
   * [6.sklearn 中使用knn算法的总结整理](/knnsuan-fa-de-xue-xi-yu-shi-yong/6.sklearn 中使用knn算法的总结整理.md)
 * [线性回归算法](/线性回归算法/README.md)
   * [1.线性回归算法简介](/knnsuan-fa-de-xue-xi-yu-shi-yong/1.线性回归算法简介.md)
-
-
-     
+  * [2.简单线性回归的实现](/线性回归算法/2.简单线性回归的实现.md)
 
 
 
