@@ -9,7 +9,6 @@
   * [Numpy 数据基础](jupyter-notebookyu-numpy-de-shi-yong/numpy-shu-ju-ji-chu.md)
   * [其他创建numpy.array 的方法](jupyter-notebookyu-numpy-de-shi-yong/qi-ta-chuang-jian-numpy-array-de-fang-fa.md)
   * [Numpy.array 的基本操作](jupyter-notebookyu-numpy-de-shi-yong/numpyarray-de-ji-ben-cao-zuo.md)
-  * 1. 超参数和模型参数
 * [kNN算法的学习与使用](knnsuan-fa-de-xue-xi-yu-shi-yong.md)
   * [1.KNN算法的原理介绍](knnsuan-fa-de-xue-xi-yu-shi-yong/1knnsuan-fa-de-yuan-li-jie-shao.md)
   * [2.KNN算法的一个简单实现](knnsuan-fa-de-xue-xi-yu-shi-yong/2knnsuan-fa-de-yi-ge-jian-dan-shi-xian.md)
