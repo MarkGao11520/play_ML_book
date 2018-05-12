@@ -6,5 +6,5 @@
   * [机器学习中监督学习的基本任务](chapter1/ji-qi-xue-xi-zhong-jian-du-xue-xi-de-ji-ben-ren-wu.md)
 * [Jupyter Notebook与Numpy的使用](jupyter-notebookyu-numpy-de-shi-yong.md)
   * [Jupyter Notebook与Numpy的使用](jupyter-notebookyu-numpy-de-shi-yong/jupyter-notebookyu-numpy-de-shi-yong.md)
-  * Numpy 数据基础
+  * [Numpy 数据基础](jupyter-notebookyu-numpy-de-shi-yong/numpy-shu-ju-ji-chu.md)
 
