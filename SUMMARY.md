@@ -9,8 +9,8 @@
   * [Numpy 数据基础](jupyter-notebookyu-numpy-de-shi-yong/numpy-shu-ju-ji-chu.md)
   * [其他创建numpy.array 的方法](jupyter-notebookyu-numpy-de-shi-yong/qi-ta-chuang-jian-numpy-array-de-fang-fa.md)
   * [Numpy.array 的基本操作](jupyter-notebookyu-numpy-de-shi-yong/numpyarray-de-ji-ben-cao-zuo.md)
-* kNN算法的学习与使用
-  * sadas
+* [kNN算法的学习与使用](knnsuan-fa-de-xue-xi-yu-shi-yong.md)
+  * [sadas](knnsuan-fa-de-xue-xi-yu-shi-yong/sadas.md)
 * sklearn 中使用knn算法的总结整理
 * 线性回归算法
 * 梯度下降法
