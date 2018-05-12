@@ -17,7 +17,7 @@
     * [5.数据归一化](knnsuan-fa-de-xue-xi-yu-shi-yong/5.数据归一化.md)
     * [6.sklearn 中使用knn算法的总结整理](knnsuan-fa-de-xue-xi-yu-shi-yong/6.sklearn 中使用knn算法的总结整理.md)
 * [线性回归算法](线性回归算法/README.md)
-    * [1.线性回归算法简介](knnsuan-fa-de-xue-xi-yu-shi-yong/1.线性回归算法简介.md)
+    * [1.线性回归算法简介](线性回归算法/1.线性回归算法简介.md)
     * [2.简单线性回归的实现](线性回归算法/2.简单线性回归的实现.md)
     * [3.衡量线性回归算法的指标](线性回归算法/3.衡量线性回归算法的指标.md)
     * [4.最好的衡量线性回归法的指标 R Squared](线性回归算法/4.最好的衡量线性回归法的指标-R-Squared.md)
