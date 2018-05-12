@@ -7,4 +7,5 @@
 * [Jupyter Notebook与Numpy的使用](jupyter-notebookyu-numpy-de-shi-yong.md)
   * [Jupyter Notebook与Numpy的使用](jupyter-notebookyu-numpy-de-shi-yong/jupyter-notebookyu-numpy-de-shi-yong.md)
   * [Numpy 数据基础](jupyter-notebookyu-numpy-de-shi-yong/numpy-shu-ju-ji-chu.md)
+  * 其他创建numpy.array 的方法
 
