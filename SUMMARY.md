@@ -10,10 +10,9 @@
   * [其他创建numpy.array 的方法](jupyter-notebookyu-numpy-de-shi-yong/qi-ta-chuang-jian-numpy-array-de-fang-fa.md)
   * [Numpy.array 的基本操作](jupyter-notebookyu-numpy-de-shi-yong/numpyarray-de-ji-ben-cao-zuo.md)
 * kNN算法的学习与使用
+  * sadas
 * sklearn 中使用knn算法的总结整理
 * 线性回归算法
 * 梯度下降法
 * PCA
-
-
 
