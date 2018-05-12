@@ -13,5 +13,5 @@
   * [1.KNN算法的原理介绍](knnsuan-fa-de-xue-xi-yu-shi-yong/1knnsuan-fa-de-yuan-li-jie-shao.md)
   * [2.KNN算法的一个简单实现](knnsuan-fa-de-xue-xi-yu-shi-yong/2knnsuan-fa-de-yi-ge-jian-dan-shi-xian.md)
   * [3.判断机器学习算法的性能](knnsuan-fa-de-xue-xi-yu-shi-yong/3pan-duan-ji-qi-xue-xi-suan-fa-de-xing-neng.md)
-  * 4. 超参数和模型参数
+* 4. 超参数和模型参数
 
