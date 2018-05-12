@@ -11,5 +11,5 @@
   * [Numpy.array 的基本操作](jupyter-notebookyu-numpy-de-shi-yong/numpyarray-de-ji-ben-cao-zuo.md)
 * kNN算法的学习与使用
   * [1.KNN算法的原理介绍](1knnsuan-fa-de-yuan-li-jie-shao.md)
-  * 2.KNN算法的一个简单实现
+  * [2.KNN算法的一个简单实现](2knnsuan-fa-de-yi-ge-jian-dan-shi-xian.md)
 
