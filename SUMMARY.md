@@ -38,4 +38,5 @@
     * [4.求数据的前N个主成分](PCA/4.求数据的前N个主成分.md)
     * [5.高维数据向低维数据进行映射](PCA/5.高维数据向低维数据进行映射.md)
     * [6.sklearn中的PCA](PCA/6.sklearn中的PCA.md)
+    * [7.试手MNIST数据集](PCA/试手MNIST数据集.md)
 
