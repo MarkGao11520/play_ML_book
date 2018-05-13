@@ -39,4 +39,7 @@
     * [5.高维数据向低维数据进行映射](PCA/5.高维数据向低维数据进行映射.md)
     * [6.sklearn中的PCA](PCA/6.sklearn中的PCA.md)
     * [7.试手MNIST数据集](PCA/试手MNIST数据集.md)
+    * [8.使用PCA对数据进行降噪](PCA/使用PCA对数据进行降噪.md)
+
+
 
