@@ -8,6 +8,10 @@
 
 - #### 以下列出本笔记（课程）学习使用到的sikit-learn算法
 
+- #### datasets可以用来加载真实数据进行模型训练的测试
+
+
+
 ```
 import sklearn.datasets
 datasets.load_iris() # 用于加载鸢尾花数据集
@@ -21,7 +25,6 @@ from sklearn.datasets import fetch_mldata
 from sklearn.datasets import fetch_lfw_people
 ```
 
-- #### datasets可以用来加载真实数据进行模型训练的测试
 
 - #### model_selection模块提供了模型选择的相关操作
 
