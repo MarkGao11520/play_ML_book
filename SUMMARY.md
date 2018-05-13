@@ -46,5 +46,3 @@
     * [2.scikit-learn中的多项式回归于pipeline](多项式回归/scikit-learn中的多项式回归于pipeline.md)
     * [3.过拟合与前拟合](多项式回归/过拟合与前拟合.md)
 
-
-
