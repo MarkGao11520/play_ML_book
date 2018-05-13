@@ -44,5 +44,4 @@
 * [7.多项式回归](多项式回归/README.md)
     * [1.多项式回归简介](多项式回归/1.什么是多项式回归.md)
     * [2.scikit-learn中的多项式回归于pipeline](多项式回归/scikit-learn中的多项式回归于pipeline.md)
-    
 
