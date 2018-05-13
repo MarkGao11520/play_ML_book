@@ -41,6 +41,6 @@
     * [7.试手MNIST数据集](PCA/试手MNIST数据集.md)
     * [8.使用PCA对数据进行降噪](PCA/使用PCA对数据进行降噪.md)
     * [9.人脸识别与特征脸](PCA/特征脸.md)
-* [7.多项式回归](polynomial_regression/README.md)
-    * [1.多项式回归简介](polynomial_regression/1.what`s polynomial_regression.md)
+* [7.多项式回归](多项式回归/README.md)
+    * [1.多项式回归简介](多项式回归/1.什么是多项式回归.md)
 
