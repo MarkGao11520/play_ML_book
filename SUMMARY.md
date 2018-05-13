@@ -44,5 +44,3 @@
 * [7.多项式回归](polynomial_regression/README.md)
     * [1.多项式回归简介](polynomial_regression/1.what`s polynomial_regression.md)
 
-
-
