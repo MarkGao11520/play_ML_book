@@ -40,4 +40,7 @@
     * [6.sklearn中的PCA](PCA/6.sklearn中的PCA.md)
     * [7.试手MNIST数据集](PCA/试手MNIST数据集.md)
     * [8.使用PCA对数据进行降噪](PCA/使用PCA对数据进行降噪.md)
+    * [9.特征脸](PCA/特征脸.md)
+
+
 
