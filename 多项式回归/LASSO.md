@@ -9,6 +9,95 @@ LASSO回归有一些选择的功能
 
 ##1. 实际编程（准备代码参考上一节岭回归）
 
+```python
+from sklearn.linear_model import Lasso
+
+def LassoRegression(degree,alpha):
+    return Pipeline([
+        ("poly",PolynomialFeatures(degree=degree)),
+        ("std_scatter",StandardScaler()),
+        ("lasso_reg",Lasso(alpha=alpha))
+    ])
+```
+
+
+```python
+# 这里穿的alpha起始值比岭回归的时候大了很多，是由于现在是绝对值
+lasso1_reg = LassoRegression(degree=20,alpha=0.01)
+lasso1_reg.fit(X_train,y_train)
+lasso1_predict = lasso1_reg.predict(X_test)
+mean_squared_error(lasso1_predict,y_test)
+```
+
+
+
+
+    1.1496080843259968
+
+
+
+
+```python
+plot_module(lasso1_reg)
+```
+
+
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-4f6077259f57f014.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+
+```python
+# 增大alpha继续试验
+lasso2_reg = LassoRegression(degree=20,alpha=0.1)
+lasso2_reg.fit(X_train,y_train)
+lasso2_predict = lasso2_reg.predict(X_test)
+mean_squared_error(lasso2_predict,y_test)
+```
+
+
+
+
+    1.1213911351818648
+
+
+
+
+```python
+# 非常接近一根直线
+plot_module(lasso2_reg)
+```
+
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-4a2b560f0b580785.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+
+```python
+# 增大alpha继续试验
+lasso3_reg = LassoRegression(degree=20,alpha=1)
+lasso3_reg.fit(X_train,y_train)
+lasso3_predict = lasso3_reg.predict(X_test)
+mean_squared_error(lasso3_predict,y_test)
+```
+
+
+
+
+    1.8408939659515595
+
+
+
+
+```python
+# alpha=1的时候正则化已经过头了
+plot_module(lasso3_reg)
+```
+
+
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-f48fe5f89f284517.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 
 
 ##2. 总结Ridge和Lasso
@@ -34,3 +123,4 @@ LASSO回归有一些选择的功能
 这也说明了Ridge为什么叫岭回归，因为他更像是翻山越岭一样，在梯度下降法中一点一点找坡度缓的方向前进。而LASSO的路径就比较规则，会在训练的过程中碰到一些轴使得某些θ为0。
 
 所以从计算准确度上来说，我们应该更加倾向于Ridge，但是如果我们的维度比较多，样本非常大（比如多项式回归时degree=100）
+
