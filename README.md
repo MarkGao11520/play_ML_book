@@ -75,6 +75,9 @@ from sklearn.linear_model import LinearRegression
 # SGDRegressor是梯度下降法相关的实现
 from sklearn.linear_model import SGDRegressor
 
+# Ridge是岭回归的实现
+from sklearn.liner_model import Ridge
+
 ```
 
 - #### decomposition提供了降维相关算法的实现
