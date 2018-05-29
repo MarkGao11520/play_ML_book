@@ -61,5 +61,3 @@
     * [7.scikit-learn中的逻辑会回归](逻辑回归/7.scikit-learn中的逻辑会回归.md)
     * [8.OvR与OvO](逻辑回归/8.OvR与OvO.md)
 
-
-
