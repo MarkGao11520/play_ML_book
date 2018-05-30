@@ -33,9 +33,29 @@ from sklearn.datasets import fetch_lfw_people
 from sklearn.model_selection import train_test_split
 
 # GridSearchCV用于进行参数搜索，寻找合适的超参数
-from sklearn.model_selection import GridSearchCV
-from 
+from sklearn.model_selection import GridSearchCV 
 ```
+
+- #### metrics模块提供了数据之间的度量相关运算
+```
+# MSE的实现
+from sklearn.metrics import mean_squared_error
+# MAE的实现
+from sklearn.metrics import mean_absolute_error
+# r2_score的实现
+from sklearn.metrics import r2_score
+```
+
+- #### multiclass模块提供了多分类问题的相关实现
+```
+# OneVsRestClassifier是OvR的实现
+from sklearn.multiclass import OneVsRestClassifier
+
+# OneVsOneClassifier是OvO的实现
+from sklearn.multiclass import OneVsOneClassifier
+```
+
+
 
 - #### preprocessing模块提供了数据预处理的相关操作
 
@@ -56,15 +76,7 @@ from sklearn.neighbors import KNeighborsClassifier
 # KNeighborsClassifier是KNN算法解决回归问题的实现
 from sklearn.neighbors import KNeighborsRegressor
 ```
-- #### metrics模块提供了数据之间的度量相关运算
-```
-# MSE的实现
-from sklearn.metrics import mean_squared_error
-# MAE的实现
-from sklearn.metrics import mean_absolute_error
-# r2_score的实现
-from sklearn.metrics import r2_score
-```
+
 
 - #### linear_model提供了线性模型相关算法的实现
 
@@ -77,6 +89,9 @@ from sklearn.linear_model import SGDRegressor
 
 # Ridge是岭回归的实现
 from sklearn.liner_model import Ridge
+
+# LogisticRegression是逻辑回归的实现，默认使用了l2正则化
+from sklearn.linear_model import LogisticRegression
 
 ```
 
