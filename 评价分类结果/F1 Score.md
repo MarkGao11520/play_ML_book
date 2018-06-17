@@ -1,5 +1,6 @@
 # 9.4 F1 Score
 
+## 1.F1 Score的含义
 精准率和召回率是两个指标，有的时候精准率高一些，有的时候召回率高一些，在我们使用的时候，我们应该怎么解读这个精准率和召回率呢？
 这个问题的答案，和机器学习大多数的取舍是一样的，应该视情况而定。
 
@@ -13,7 +14,9 @@
 
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-f0d0f37ba134412c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+调和平均值的特点：如果一个值特别高，一个值特别低，那么我们得到的F1 Score 也将特别的低，只有二者都非常高，我们得到的值才会特别高
+
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-41b10877c1de8d8e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-调和平均值的特点：如果一个值特别高，一个值特别低，那么我们得到的F1 Score 也将特别的低，只有二者都非常高，我们得到的值才会特别高
+## 2.F1 Score 的实现
