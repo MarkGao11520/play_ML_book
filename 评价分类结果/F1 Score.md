@@ -20,3 +20,110 @@
 
 
 ## 2.F1 Score 的实现
+
+```python
+import numpy as np
+```
+
+
+```python
+def f1_score(precision, recall):
+    return 2 * (precision * recall) / (precision + recall)
+```
+
+
+```python
+precision = 0.5
+recall = 0.5
+f1_score(precision, recall)
+# 当二者相同，得到的就是这个相同的值
+```
+
+
+
+
+    0.5
+
+
+
+
+```python
+precision = 0.1
+recall = 0.9
+f1_score(precision, recall)
+# 有一个非常小，整体就非常小
+```
+
+
+
+
+    0.18000000000000002
+
+
+
+
+```python
+precision = 0.9
+recall = 0
+f1_score(precision, recall)
+```
+
+
+
+
+    0.0
+
+
+
+
+```python
+precision = 0.9
+recall = 0.95
+f1_score(precision, recall)
+# 只有都非常大，结果才会打
+```
+
+
+
+
+    0.9243243243243242
+
+
+
+
+```python
+from sklearn import datasets
+digits = datasets.load_digits()
+
+X = digits.data
+y = digits.target.copy()
+
+# 手动将手写数据集变成及其偏斜的数据。不是9的y=0，是9的y=1
+y[digits.target==9] = 1
+y[digits.target!=9] = 0
+
+from sklearn.model_selection import train_test_split
+X_train,X_test,y_train,y_test = train_test_split(X,y,random_state=666)
+
+from sklearn.linear_model import LogisticRegression
+
+log_reg = LogisticRegression()
+log_reg.fit(X_train,y_train)
+log_reg.score(X_test,y_test)
+
+y_log_predict = log_reg.predict(X_test)
+```
+
+
+```python
+from sklearn.metrics import f1_score
+f1_score(y_test, y_log_predict)
+```
+
+
+
+
+    0.8674698795180723
+
+
+0.8674698795180723 显然没有精准率和召回率高，这是因为首先我们的数据是有偏的，精准率和召回率都比准确率要低一些，在这里精准率和召回率能够更好的反应我们的结果。其次使用逻辑回归进行预测，明显召回率比较低，所以f1_score 被召回率拉低了，这个时候对于这个有偏的数据来说，我们更倾向认为f1_score 能更好的反应算法的水平
