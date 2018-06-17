@@ -13,5 +13,7 @@
 
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-f0d0f37ba134412c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-41b10877c1de8d8e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 调和平均值的特点：如果一个值特别高，一个值特别低，那么我们得到的F1 Score 也将特别的低，只有二者都非常高，我们得到的值才会特别高
