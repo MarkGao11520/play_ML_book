@@ -14,3 +14,4 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-f0d0f37ba134412c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
+如果一个值特别高，一个值特别低，那么我们得到的F1 Score 也将特别的低
