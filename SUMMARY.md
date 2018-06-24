@@ -65,5 +65,5 @@
     * [9.2 精准率和召回率](评价分类结果/9.2 精准率和召回率.md)
     * [9.3 实现混淆矩阵，精准率和召回率](评价分类结果/9.3 实现混淆矩阵，精准率和召回率.md)
     * [9.4 F1 Score](评价分类结果/F1 Score.md)
-    * [9.4 Precision-Recall的平衡](评价分类结果/9.4 Precision-Recall的平衡.md)
+    * [9.5 Precision-Recall的平衡](评价分类结果/9.5 Precision-Recall的平衡.md)
 
