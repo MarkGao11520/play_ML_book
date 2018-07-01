@@ -49,7 +49,8 @@ from sklearn.metrics import r2_score
 from sklearn.metrics import confusion_matrix, precision_score, recall_score,f1_score
 # scikit-learn中的Precision-Recall 曲线
 from sklearn.metrics import precision_recall_curve
-
+# scikit-learn中的Precision-Recall 曲线
+from sklearn.metrics import roc_curve,roc_auc_score
 ```
 
 - #### multiclass模块提供了多分类问题的相关实现
