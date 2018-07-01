@@ -37,6 +37,7 @@ from sklearn.model_selection import GridSearchCV
 ```
 
 - #### metrics模块提供了数据之间的度量相关运算
+
 ```
 # MSE的实现
 from sklearn.metrics import mean_squared_error
@@ -44,9 +45,15 @@ from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
 # r2_score的实现
 from sklearn.metrics import r2_score
+# scikit-learn中的混淆矩阵，精准率和召回率,f1_score
+from sklearn.metrics import confusion_matrix, precision_score, recall_score,f1_score
+# scikit-learn中的Precision-Recall 曲线
+from sklearn.metrics import precision_recall_curve
+
 ```
 
 - #### multiclass模块提供了多分类问题的相关实现
+    
 ```
 # OneVsRestClassifier是OvR的实现
 from sklearn.multiclass import OneVsRestClassifier
