@@ -8,3 +8,4 @@
 二分类基尼系数函数
 
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-fd6d905bc5450ccd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
