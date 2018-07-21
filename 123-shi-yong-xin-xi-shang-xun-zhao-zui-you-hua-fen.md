@@ -78,7 +78,9 @@ plt.scatter(X[y==2,0],X[y==2,1])
 
 
 
-![png](output_4_2.png)
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-00d42888e6aa0c9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 
 
 ### 模拟使用信息熵进行划分
