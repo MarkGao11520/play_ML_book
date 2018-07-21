@@ -3,6 +3,8 @@
 
 ### 本笔记记录笔者观看[慕课网入门机器学习](https://coding.imooc.com/class/169.html)课程的笔记过程
 
+### 官方Github代码：https://github.com/liuyubobobo/Play-with-Machine-Learning-Algorithms
+
 主要以sikit-learn和numpy为技术栈，学习了机器学习入门的基本算法，并自己实现了部分sikit-learn中提供的算法
 
 
