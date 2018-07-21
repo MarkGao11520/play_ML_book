@@ -10,8 +10,6 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-fd6d905bc5450ccd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-
-
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -92,6 +90,8 @@ plt.scatter(X[y==2,0],X[y==2,1])
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-00d42888e6aa0c9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 模拟使用基尼系数进行划分
+
+只需要把信息熵的函数改成基尼系数
 
 
 ```python
