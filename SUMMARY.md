@@ -79,7 +79,8 @@
   * [11.7 RBF核函数](支撑向量机SVM/11.7 RBF核函数.md)
   * [11.8 RBF核函数中的gamma](支撑向量机SVM/11.8 RBF核函数中的gamma.md)
   * [11.9 SVM思想解决回归问题](支撑向量机SVM/11.9 SVM思想解决回归问题.md)
-* 11.决策树
+* [11.决策树](11jue-ce-shu.md)
   * [12.1 什么是决策树](121-shi-yao-shi-jue-ce-shu.md)
   * [12.2 信息熵](122-xin-xi-shang.md)
+  * [12.3 使用信息熵寻找最优划分](123-shi-yong-xin-xi-shang-xun-zhao-zui-you-hua-fen.md)
 
