@@ -111,3 +111,19 @@ from sklearn.decomposition import PCA
 
 ```
 
+- #### svm提供了支持向量机相关算法的实现
+
+```
+# SVC--Support Vector Classifier 使用支持向量机思想解决分类问题
+from sklearn.svm import LinearSVC
+
+# 使用核函数的支撑向量机
+from sklearn.svm import SVC
+
+# SCR--Support Vector Regression 使用支持向量机思想解决回归问题
+from sklearn.svm import LinearSVR 
+
+# 使用核函数的解决回归问题的支撑向量机
+from sklearn.svm import SVR
+```
+
