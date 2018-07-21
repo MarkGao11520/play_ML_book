@@ -84,4 +84,5 @@
   * [12.2 信息熵](122-xin-xi-shang.md)
   * [12.3 使用信息熵寻找最优划分](123-shi-yong-xin-xi-shang-xun-zhao-zui-you-hua-fen.md)
   * [12.4 基尼系数](124-ji-ni-xi-shu.md)
+  * [CRAT 与决策树中的超参数](crat-yu-jue-ce-shu-zhong-de-chao-can-shu.md)
 
