@@ -3,3 +3,8 @@
 基尼系数的意义和信息熵相同
 
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-b1a7ae2a8551cdee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+二分类基尼系数函数
+
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-fd6d905bc5450ccd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
