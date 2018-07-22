@@ -93,3 +93,5 @@ random_Patches_clf.fit(X, y)
 random_Patches_clf.oob_score_
 0.864
 ```
+
+使用决策树方式进行继承学习的方式也叫随机森林
