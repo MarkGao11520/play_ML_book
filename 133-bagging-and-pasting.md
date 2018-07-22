@@ -15,3 +15,6 @@
 如果每个子模型有60%的准确率
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-740ae9abeb36b983.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
+取样：放回取样，不放回取样
+
