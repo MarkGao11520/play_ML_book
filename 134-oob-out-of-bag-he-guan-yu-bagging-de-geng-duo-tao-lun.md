@@ -6,4 +6,4 @@
 
 不使用测试数据集，而使用这部分没有取到的样本做测试/验证。
 
-sikit-learn：oob_score_
+sikit-learn：oob\_score\_
