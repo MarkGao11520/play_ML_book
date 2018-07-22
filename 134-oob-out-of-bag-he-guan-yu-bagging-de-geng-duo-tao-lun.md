@@ -7,6 +7,16 @@
 不使用测试数据集，而使用这部分没有取到的样本做测试/验证。
 
 sikit-learn：oob\_score\_
+```python
+bagging_clf = BaggingClassifier(DecisionTreeClassifier(),
+                                n_estimators=500,
+                                max_samples=100,
+                                bootstrap=True,
+                                oob_score=True)
+bagging_clf.fit(X, y)
+bagging_clf.oob_score_
+0.92
+```
 
 Bagging的思路极易并行化处理
 
