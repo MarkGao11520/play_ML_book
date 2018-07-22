@@ -10,4 +10,5 @@
     - 逻辑回归可以估算概率
     - KNN可以估算规律，结果占离他最近的k个点
     - 决策树，叶子结点中占比例最大的类别数据占整个叶子结点量的比值
-    - SVM算法：probability: boolean, optional(default=False)-> True
+    - SVM算法：probability: boolean, optional(default=False)-> True 
+    http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
