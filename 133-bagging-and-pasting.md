@@ -20,3 +20,29 @@
 Bagging更常用
 统计学中，放回取样：bootstrap
 
+```python
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import BaggingClassifier
+
+# n_estimators 集成几个模型
+# max_samples每个子模型看几个样本数据
+# bootstrap 是否放回取样
+bagging_clf = BaggingClassifier(DecisionTreeClassifier(),
+                                n_estimators=500,
+                                max_samples=100,
+                                bootstrap=True)
+bagging_clf.fit(X_train, y_train)
+bagging_clf.score(X_test, y_test)
+0.904
+```
+
+```python
+bagging_clf2 = BaggingClassifier(DecisionTreeClassifier(),
+                                n_estimators=5000,
+                                max_samples=100,
+                                bootstrap=True)
+bagging_clf2.fit(X_train, y_train)
+bagging_clf2.score(X_test, y_test)
+
+0.92
+```
