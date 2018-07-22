@@ -35,3 +35,22 @@ ada_clf.score(X_test, y_test)
 針対e1訓繚第二个模型m2,产生錯俣e2
 针对e2训练第三个模型m3,产生错误e3..
 最终预测结果是:m1 + m2 + m3 +
+
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-c98f2f83f8c8578e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+```
+from sklearn.ensemble import GradientBoostingClassifier
+
+grad_clf = GradientBoostingClassifier(max_depth=2, n_estimators=30, random_state=666)
+grad_clf.fit(X_train, y_train)
+
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=2,
+              max_features=None, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=1, min_samples_split=2,
+              min_weight_fraction_leaf=0.0, n_estimators=30,
+              presort='auto', random_state=666, subsample=1.0, verbose=0,
+              warm_start=False)
+grad_clf.score(X_test, y_test)
+0.912
+```
