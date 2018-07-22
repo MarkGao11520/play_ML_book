@@ -30,4 +30,8 @@ ada_clf.score(X_test, y_test)
 0.864
 ```
 
-## Gradient Boosting
+### Gradient Boosting
+训练一个模型m1,产生错误e1
+針対e1訓繚第二个模型m2,产生錯俣e2
+针对e2训练第三个模型m3,产生错误e3..
+最终预测结果是:m1 + m2 + m3 +
