@@ -15,6 +15,7 @@ bagging_clf = BaggingClassifier(DecisionTreeClassifier(),
                                 oob_score=True)
 bagging_clf.fit(X, y)
 bagging_clf.oob_score_
+
 0.92
 ```
 
