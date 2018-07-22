@@ -58,3 +58,5 @@ Random Subspaces
 
 既针对样本，又针对特征进行随机采样
 Random Patches
+
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-78f02a821f4ab2fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
