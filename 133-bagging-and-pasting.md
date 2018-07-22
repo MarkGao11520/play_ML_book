@@ -17,4 +17,5 @@
 
 
 取样：放回取样（Bagging），不放回取样（Pasting）
+Bagging更常用
 
