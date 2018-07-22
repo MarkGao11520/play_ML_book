@@ -28,3 +28,5 @@ AdaBoostClassifier(algorithm='SAMME.R',
 ada_clf.score(X_test, y_test)
 0.864
 ```
+
+## Gradient Boosting
