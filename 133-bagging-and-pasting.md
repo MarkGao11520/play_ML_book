@@ -11,3 +11,7 @@
 
 如果每个子模型只有51%的准确率
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-56fe19eac1cdaeec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+如果每个子模型有60%的准确率
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-740ae9abeb36b983.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
