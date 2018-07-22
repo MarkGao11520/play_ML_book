@@ -51,3 +51,10 @@ bagging_clf.fit(X, y)
 CPU times: user 166 ms, sys: 54 ms, total: 220 ms
 Wall time: 480 ms
 ```
+
+### 针对模型产生差异化
+针对特征进行随机采样
+Random Subspaces
+
+既针对样本，又针对特征进行随机采样
+Random Patches
