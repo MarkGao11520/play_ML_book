@@ -4,3 +4,5 @@
 每个模型都在尝试增强(Boosting)整体的效果
 
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-2461acfc968b4b29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+使用每次增强训练出来的子模型进行投票得出最终的结果
