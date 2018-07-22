@@ -3,11 +3,14 @@
 
 ### 本笔记记录笔者观看[慕课网入门机器学习](https://coding.imooc.com/class/169.html)课程的笔记过程
 
+
+主要以sikit-learn和numpy为技术栈，学习了机器学习入门的基本算法，并自己实现了部分sikit-learn中提供的算法
+
 ### 官方Github代码：https://github.com/liuyubobobo/Play-with-Machine-Learning-Algorithms
 
 ### scikit-learn官网：http://scikit-learn.org/stable/
 
-重点看http://scikit-learn.org/stable/documentation.html中的User-Guide是对每一个算法的概述介绍。API是每一个算法的使用文档
+重点看http://scikit-learn.org/stable/documentation.html 中的User-Guide是对每一个算法的概述介绍。API是每一个算法的使用文档
 
 主要以sikit-learn和numpy为技术栈，学习了机器学习入门的基本算法，并自己实现了部分sikit-learn中提供的算法
 
