@@ -12,3 +12,15 @@
     - 决策树，叶子结点中占比例最大的类别数据占整个叶子结点量的比值
     - SVM算法：probability: boolean, optional(default=False)-> True 
     http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+    
+```
+voting_clf2 = VotingClassifier(estimators=[
+    ("log_clf", LogisticRegression()),
+    ("svm_clf", SVC(probability=True)),
+    ("dt_clf", DecisionTreeClassifier(random_state=666))
+], voting="soft")
+
+voting_clf2.fit(X_train, y_train)
+voting_clf2.score(X_test, y_test)
+```
+0.921
