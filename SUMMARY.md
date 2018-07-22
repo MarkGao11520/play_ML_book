@@ -87,4 +87,6 @@
   * [CRAT 与决策树中的超参数](crat-yu-jue-ce-shu-zhong-de-chao-can-shu.md)
   * [12.6 决策树解决回归问题](126-jue-ce-shu-jie-jue-hui-gui-wen-ti.md)
   * [12.7 决策树的局限性](127-jue-ce-shu-de-ju-xian-xing.md)
+* 13.集成学习和随机森林
+  * [13.1 什么是集成学习](131-shi-yao-shi-ji-cheng-xue-xi.md)
 
