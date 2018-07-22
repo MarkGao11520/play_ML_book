@@ -93,4 +93,5 @@
   * [13.3 Bagging and Pasting](133-bagging-and-pasting.md)
   * [13.4 oob \(Out-of-Bag\) 和关于Bagging的更多讨论](134-oob-out-of-bag-he-guan-yu-bagging-de-geng-duo-tao-lun.md)
   * [13.5 随机森林](135-sui-ji-sen-lin.md)
+  * [13.6 Ada Boosting 和 Gradient Boosting](136-ada-boosting-he-gradient-boosting.md)
 
