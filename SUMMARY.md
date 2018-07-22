@@ -90,4 +90,5 @@
 * [13.集成学习和随机森林](13ji-cheng-xue-xi-he-sui-ji-sen-lin.md)
   * [13.1 什么是集成学习](131-shi-yao-shi-ji-cheng-xue-xi.md)
   * [13.2 Softvoting Classifier](132-softvoting-classifier.md)
+  * [13.3 Bagging and Pasting](133-bagging-and-pasting.md)
 
