@@ -91,4 +91,5 @@
   * [13.1 什么是集成学习](131-shi-yao-shi-ji-cheng-xue-xi.md)
   * [13.2 Softvoting Classifier](132-softvoting-classifier.md)
   * [13.3 Bagging and Pasting](133-bagging-and-pasting.md)
+  * [13.4 oob \(Out-of-Bag\) 和关于Bagging的更多讨论](134-oob-out-of-bag-he-guan-yu-bagging-de-geng-duo-tao-lun.md)
 
