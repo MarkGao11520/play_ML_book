@@ -10,5 +10,4 @@
 例如: -共有500个样本数据;每个子模型只看100个样本数据，每个子模型不需要太高的准确率
 
 如果每个子模型只有51%的准确率
-如果只有1个子模型，整体准确率是51%
-如果只有3个子模型，整体准确率是0.51^3+0.51^2*C32+0.49=51.5%
+![image.png](https://upload-images.jianshu.io/upload_images/7220971-56fe19eac1cdaeec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
