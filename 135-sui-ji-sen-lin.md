@@ -64,3 +64,20 @@ rf_clf2.oob_score_
 提供额外的随机性，抑制过拟合，但增大了bias
 更快的训练速度
 
+```
+from sklearn.ensemble import ExtraTreesClassifier
+
+et_clf = ExtraTreesClassifier(n_estimators=500, bootstrap=True, oob_score=True, random_state=666)
+et_clf.fit(X, y)
+
+ExtraTreesClassifier(bootstrap=True, class_weight=None, criterion='gini',
+           max_depth=None, max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=500, n_jobs=1,
+           oob_score=True, random_state=666, verbose=0, warm_start=False)
+           
+et_clf.oob_score_
+0.892
+```
+
