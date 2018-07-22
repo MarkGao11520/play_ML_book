@@ -60,3 +60,36 @@ Random Subspaces
 Random Patches
 
 ![image.png](https://upload-images.jianshu.io/upload_images/7220971-78f02a821f4ab2fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+```python
+# max_features 对特征随机取样
+# bootstrap_features 对特征进行随机取样的方式
+random_subspaces_clf = BaggingClassifier(DecisionTreeClassifier(),
+                                n_estimators=500,
+                                max_samples=500,
+                                bootstrap=True,
+                                oob_score=True,
+                                n_jobs=-1,
+                                max_features=1,
+                                bootstrap_features=True)
+random_subspaces_clf.fit(X, y)
+random_subspaces_clf.oob_score_
+
+0.82
+```
+
+```python
+# max_features 对特征随机取样
+# bootstrap_features 对特征进行随机取样的方式
+random_Patches_clf = BaggingClassifier(DecisionTreeClassifier(),
+                                n_estimators=500,
+                                max_samples=100,
+                                bootstrap=True,
+                                oob_score=True,
+                                n_jobs=-1,
+                                max_features=1,
+                                bootstrap_features=True)
+random_Patches_clf.fit(X, y)
+random_Patches_clf.oob_score_
+0.864
+```
