@@ -10,7 +10,7 @@
 
 ### scikit-learn官网：http://scikit-learn.org/stable/
 
-重点看http://scikit-learn.org/stable/documentation.html 中的User-Guide是对每一个算法的概述介绍。API是每一个算法的使用文档
+重点看http://scikit-learn.org/stable/documentation.html 中的User-Guide是对每一个算法的概述介绍。API是每一个算法的使用文档（也可以在首页大搜中搜索）
 
 主要以sikit-learn和numpy为技术栈，学习了机器学习入门的基本算法，并自己实现了部分sikit-learn中提供的算法
 
